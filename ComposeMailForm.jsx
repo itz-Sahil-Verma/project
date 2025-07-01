@@ -274,28 +274,13 @@ export default function ComposeMailForm({ onClose, onMinimize, onMaximize }) {
           </button>
           <button 
             className="text-gray-600 hover:bg-gray-100 p-2 rounded-full transition-colors"
-            title="Attach files"
+            title="Upload media"
           >
-            <Paperclip className="h-4 w-4" />
-          </button>
-          <button 
-            className="text-gray-600 hover:bg-gray-100 p-2 rounded-full transition-colors"
-            title="Insert link"
-          >
-            <Link className="h-4 w-4" />
-          </button>
-          <button 
-            className="text-gray-600 hover:bg-gray-100 p-2 rounded-full transition-colors"
-            title="Insert emoji"
-          >
-            <Smile className="h-4 w-4" />
+            <ImageIcon className="h-4 w-4" />
           </button>
         </div>
         
         <div className="flex items-center gap-2">
-          <button className="text-gray-600 hover:bg-gray-100 p-1.5 rounded transition-colors" title="More options">
-            <MoreVertical className="h-4 w-4" />
-          </button>
           <button 
             onClick={onClose}
             className="text-gray-600 hover:bg-gray-100 p-1.5 rounded transition-colors"
